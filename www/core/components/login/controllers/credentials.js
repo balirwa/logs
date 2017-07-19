@@ -71,7 +71,7 @@ angular.module('mm.core.login')
             return $q.reject();
         }).finally(function() {
             checkmodal.dismiss();
-      //      $scope.login();
+            $scope.login();
         });
     }
 
