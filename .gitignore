@@ -6,7 +6,8 @@ platforms/
 plugins/
 hooks/
 .sass-cache/
-*.idea/
+*.idea
+.idea/*
 e2e/
 res/
 scss/
