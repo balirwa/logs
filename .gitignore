@@ -4,9 +4,9 @@
 node_modules/
 platforms/
 plugins/
-hooks/
+**/hooks
 .sass-cache/
-*.idea
+.idea/
 e2e/
 res/
 scss/
