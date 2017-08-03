@@ -618,9 +618,12 @@ angular.module('mm.core.course')
      * @return {Promise}         Promise resolved when the WS call is successful.
      */
     self.logView = function(courseId, section) {
+    var timestamp = Date.now();
         var params = {
-            courseid: courseId
-            //deviceid:window.device.uuid
+            courseid: courseId,
+            deviceid:window.device.uuid,
+            viewedtimestamp:timestamp
+
         };
         if (typeof section != 'undefined') {
             params.sectionnumber = section;
